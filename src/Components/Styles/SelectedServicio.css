@@ -1,0 +1,23 @@
+/* Selected Servicio */
+
+.icon-venta-dolar {
+  color: #3EC164;
+  font-size: 25px;
+  padding: 2% 0;
+}
+
+.thumbnail-servicio {
+  width: 50%;
+  border-radius: 20px 20px 20px;
+}
+
+@media only screen and (min-width: 1920px) {
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+}
+
+/* Mobile */
+@media only screen and (max-width: 900px) {
+}

@@ -1,0 +1,72 @@
+/* Header */
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgb(51,115,173);
+  background: linear-gradient(90deg, rgba(51,115,173,1) 0%, rgba(56,165,252,1) 100%);
+  height: 50px;
+  padding: 0% 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 30;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn-join {
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn-login {
+  background: none;
+  border: 0;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icons {
+  font-size: 30px;
+  color: white;
+  padding-left: 1%;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1920px) {
+
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 900px) {
+
+}
+
+/* Mobile Landscape */
+@media only screen and (orientation: landscape) and (max-width: 900px) {
+
+}

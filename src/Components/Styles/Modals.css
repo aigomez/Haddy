@@ -1,0 +1,171 @@
+/* Inputs */
+.inside-input {
+  cursor: pointer;
+  position: relative;
+  display: inline;
+  width: 100%;
+}
+
+.fa-eye, .fa-eye-slash {
+  position: absolute;
+  top: 0px;
+  user-select: none;
+  font-size: 18px;
+}
+
+/* Modals */
+
+.Modal {
+  outline: none;
+  background: white;
+  margin: 10% 0% 4% 25%;
+  padding: 0.5% 2% 2.5% 2%;
+  width: 50%;
+  border-radius: 15px 50px 30px;
+  text-align: center;
+}
+
+.Modal-Data {
+  margin: 1% 0% 4% 25%;
+}
+
+@media only screen and (min-width: 1920px) {
+   .Modal {
+     margin: 8.5% 0% 0% 25%;
+   }
+}
+
+.Overlay {
+  overflow-y: scroll;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(153, 153, 202, 0.73);
+}
+
+.btn-Close {
+  position: relative;
+  right: -45%;
+  top: 0;
+  border: 0;
+  outline: none;
+  font-size: 35px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  background: none;
+  transition: 0.2s ease-out;
+  color: #ccc;
+}
+
+.btn-Close:hover {
+  color: #F09A34;
+  transition: 0.2s ease-in;
+}
+
+.input {
+  outline: none;
+  border: 0;
+  border-bottom: 1.1px solid #9a34f0;
+  margin: 1.5% 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  width: 250px;
+}
+
+.input:focus {
+  border-bottom: 1.1px solid #F09A34;
+}
+
+.new-icon {
+  width: 5%;
+  font-size: 17.5px;
+  margin-right: 1%;
+}
+
+.icon-top {
+  position: relative;
+  top: 4px;
+}
+
+.btn-Submit {
+  border: 0;
+  border-radius: 5px 5px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  background: #9a34f0;
+  color: white;
+  font-size: 15px;
+  padding: 1% 4%;
+  margin-top: 3%;
+  transition: 0.2s ease-out;
+}
+
+.btn-Submit:hover {
+  background: #F09A34;
+  transition: 0.2s ease-in;
+}
+
+.danger {
+  background: #C4413B;
+  transition: 0.2s ease-out;
+}
+
+.danger:hover {
+  background: #E0241F;
+  transition: 0.2s ease-in;
+}
+
+.btn-RecuperarPassword {
+  background: #F0348A;
+  transition: 0.2s ease-out;
+}
+
+.btn-RecuperarPassword:hover {
+  background: #F03C34;
+  transition: 0.2s ease-in;
+}
+
+/* Calendario - Data Usuario */
+
+.calDiv div {
+  width: 250px;
+}
+
+.calInput {
+  width: 250px;
+  text-transform: capitalize;
+  margin-top: 5%;
+}
+
+.calInside {
+  box-shadow: 0 0 10px 1px grey;
+  font-size: 15px;
+}
+
+.calInside > button {
+  outline: none;
+  top: 15px;
+}
+
+.react-datepicker__header {
+  padding: 11px 0;
+}
+
+.react-datepicker__month
+.react-datepicker__month-text,
+.react-datepicker__month
+.react-datepicker__quarter-text {
+  margin: 10px;
+  text-transform: capitalize;
+  width: 100px;
+  padding: 2px 2px;
+}
+
+.react-datepicker__close-icon::after {
+  content: "×";
+}

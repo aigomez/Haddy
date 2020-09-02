@@ -1,0 +1,104 @@
+/* Cambia el color de seleccionado en el texto */
+
+::-moz-selection {
+  background: #F5B6EE;
+  color: white;
+}
+::-webkit-selection {
+  background: #F5B6EE;
+  color: white;
+}
+::selection {
+  background: #F5B6EE;
+  color: white;
+}
+
+/* Cambia el color del placeholder */
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #9a34f0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #9a34f0;
+}
+
+/* Otros */
+
+* {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+/* Todo por aquel bug de la scrollbar adicional con el reactmodal.. */
+/* Chrome */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.m-top {
+  margin-top: 2%;
+}
+
+.clickable {
+  cursor: pointer !important;
+}
+
+.padding {
+  padding: 20% 100% !important;
+}
+
+/* Envio */
+.envio {
+  margin: 5%;
+  align-items: center;
+}
+
+.envio-logo {
+  width: 30%;
+}
+
+.envio-texto {
+  text-align: center;
+  font-weight: 700 !important;
+  font-size: 25px;
+}
+
+/* 404 */
+.n404-logo {
+  margin: 8% 0 4% 0;
+}
+
+.center {
+  text-align: center;
+}
